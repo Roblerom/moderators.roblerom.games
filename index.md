@@ -11,7 +11,7 @@
 
   table {
     border-collapse: collapse;
-    border: 2px solid #ffffff
+    border: 0px solid #ffffff
   }
 
   .warn { color: #00ff00; }
