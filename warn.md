@@ -5,6 +5,7 @@ body {
 }
 
 code { color: #d7b40a; }
+blockquote { color: #ffffff }
 </style>
 
 # **Справочник по варнам (предупреждениям)**
