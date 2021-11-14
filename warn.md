@@ -1,12 +1,4 @@
-<style>
-body {
-  background-color: #36393f;
-  color: #ffffff;
-}
-
-code { color: #d7b40a; }
-.text { color: #ffffff; }
-</style>
+<link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_warn.css">
 
 # **Справочник по варнам (предупреждениям)**
 
