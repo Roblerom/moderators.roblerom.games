@@ -8,6 +8,9 @@
       background-color: #36393f;
       text-align: center;
       border-bottom: 3px solid #ffffff;
+      botder-left: 0px none #ffffff;
+      border-rigft: 0px none #ffffff;
+      border-top: 0px none #ffffff;
   }
 
   .warn { color: #00ff00; }
