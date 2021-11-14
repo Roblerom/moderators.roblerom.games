@@ -4,7 +4,12 @@ body {
   color: #d6d7d9;
 }
 
-.warn { color: #00ff00 }
+thead, tbody, tr, th, td {
+  background-color: #36393f;
+  text-align: center;
+}
+
+.warn { color: #00ff00; }
 .mute { color: #ffff00; }
 .ban { color: #ff0000; }
 </style>
@@ -16,10 +21,10 @@ body {
 <ul>
   <li>
     <details><summary>Запрещена реклама сторонних проектов, каналов Discord, и т.д.</summary>
-    <table><thead><tr><th style="text-align:center"></th><th style="text-align:center"><a href="/warn" class="warn">Варн</a></th><th style="text-align:center"><a href="/mute" class="mute">Мут</a></th><th style="text-align:center"><a href="/ban" class="ban">Бан</a></th></tr></thead><tbody><tr><td style="text-align:center">Существование</td><td style="text-align:center">-</td><td style="text-align:center">+</td><td style="text-align:center">+</td></tr><tr><td style="text-align:center">Длительность</td><td style="text-align:center">-</td><td style="text-align:center">1д - 3д</td><td style="text-align:center">3д - 5д</td></tr><tr><td style="text-align:center">Условие</td><td style="text-align:center">-</td><td style="text-align:center">Пиар без ссылки</td><td style="text-align:center">Пиар с ссылкой</td></tr></tbody></table></details>
+    <table><thead><tr><th></th><th><a href="/warn" class="warn">Варн</a></th><th><a href="/mute" class="mute">Мут</a></th><th><a href="/ban" class="ban">Бан</a></th></tr></thead><tbody><tr><td>Существование</td><td>-</td><td>+</td><td>+</td></tr><tr><td>Длительность</td><td>-</td><td>1д - 3д</td><td>3д - 5д</td></tr><tr><td>Условие</td><td>-</td><td>Пиар без ссылки</td><td>Пиар с ссылкой</td></tr></tbody></table></details>
   </li>
   <li>
     <details><summary>Запрещено использование неподобающего аватара, нарушающего правила сообщества Discord.</summary>
-    <table><thead><tr><th style="text-align:center"></th><th style="text-align:center"><a href="/warn" class="warn">Варн</a></th><th style="text-align:center"><a href="/mute" class="mute">Мут</a></th><th style="text-align:center"><a href="/ban" class="ban">Бан</a></th></tr></thead><tbody><tr><td style="text-align:center">Существование</td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center">+</td></tr><tr><td style="text-align:center">Длительность</td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center">Без срока</td></tr><tr><td style="text-align:center">Условие</td><td style="text-align:center">-</td><td style="text-align:center">-</td><td style="text-align:center">Нарушение правила</td></tr></tbody></table></details>
+    <table><thead><tr><th></th><th><a href="/warn" class="warn">Варн</a></th><th><a href="/mute" class="mute">Мут</a></th><th><a href="/ban" class="ban">Бан</a></th></tr></thead><tbody><tr><td>Существование</td><td>-</td><td>-</td><td>+</td></tr><tr><td>Длительность</td><td>-</td><td>-</td><td>Без срока</td></tr><tr><td>Условие</td><td>-</td><td>-</td><td>Нарушение правила</td></tr></tbody></table></details>
   </li>
 </ul>
