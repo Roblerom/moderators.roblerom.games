@@ -19,3 +19,7 @@ body {
     - <a href="/warn" class="warn">Варн</a> 
     - <a href="/mute" class="mute">Мут</a>
     - <a href="/ban" class="ban">Бан</a>
+  - Примечания
+    - Примечание 1
+    - Примечание 2
+    - Примечание 3
