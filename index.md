@@ -49,7 +49,7 @@
   <li>
     <details>
       <summary>Запрещена реклама сторонних проектов, каналов Discord, и т.д.</summary>
-      <table class="table">
+      <table>
         <thead>
           <tr>
             <th class="top default_table_block"></th>
@@ -87,30 +87,30 @@
       <table>
         <thead>
           <tr>
-            <th style="top default_table_block"></th>
-            <th style="top default_table_block"><a href="/warn" class="warn">Варн</a></th>
-            <th style="top default_table_block"><a href="/mute" class="mute">Мут</a></th>
-            <th style="top default_table_block"><a href="/ban" class="ban">Бан</a></th>
+            <th class="top default_table_block"></th>
+            <th class="top default_table_block"><a href="/warn" class="warn">Варн</a></th>
+            <th class="top default_table_block"><a href="/mute" class="mute">Мут</a></th>
+            <th class="top default_table_block"><a href="/ban" class="ban">Бан</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style="center default_table_block">Существование</td>
-            <td style="center default_table_block">-</td>
-            <td style="center default_table_block">+</td>
-            <td style="center default_table_block">+</td>
+            <td class="center default_table_block">Существование</td>
+            <td class="center default_table_block">-</td>
+            <td class="center default_table_block">+</td>
+            <td class="center default_table_block">+</td>
           </tr>
           <tr>
-            <td style="center default_table_block">Длительность</td>
-            <td style="center default_table_block">-</td>
-            <td style="center default_table_block">1д - 3д</td>
-            <td style="center default_table_block">3д - 5д</td>
+            <td class="center default_table_block">Длительность</td>
+            <td class="center default_table_block">-</td>
+            <td class="center default_table_block">1д - 3д</td>
+            <td class="center default_table_block">3д - 5д</td>
           </tr>
           <tr>
-            <td style="bottom default_table_block">Условие</td>
-            <td style="bottom default_table_block">-</td>
-            <td style="bottom default_table_block">Пиар без ссылки</td>
-            <td style="bottom default_table_block">Пиар с ссылкой</td>
+            <td class="bottom default_table_block">Условие</td>
+            <td class="bottom default_table_block">-</td>
+            <td class="bottom default_table_block">Пиар без ссылки</td>
+            <td class="bottom default_table_block">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
