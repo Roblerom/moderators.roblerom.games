@@ -11,12 +11,16 @@
     border-top: 0px !important;
   }
 
-  .bottom {
+  .center {
     background-color: #36393f;
     border-bottom: 1px solid #5a5d62 !important;
     border-left: 0px !important;
     border-right: 0px !important;
     border-top: 0px !important;
+  }
+
+  .bottom {
+    border: 0px
   }
 
   .default_table_block {
@@ -52,22 +56,22 @@
         </thead>
         <tbody>
           <tr>
-            <td class="bottom default_table_block">Существование</td>
-            <td class="bottom default_table_block">-</td>
-            <td class="bottom default_table_block">+</td>
-            <td class="bottom default_table_block">+</td>
+            <td class="center default_table_block">Существование</td>
+            <td class="center default_table_block">-</td>
+            <td class="center default_table_block">+</td>
+            <td class="center default_table_block">+</td>
           </tr>
           <tr>
-            <td class="bottom default_table_block">Длительность</td>
-            <td class="bottom default_table_block">-</td>
-            <td class="bottom default_table_block">1д - 3д</td>
-            <td class="bottom default_table_block">3д - 5д</td>
+            <td class="center default_table_block">Длительность</td>
+            <td class="center default_table_block">-</td>
+            <td class="center default_table_block">1д - 3д</td>
+            <td class="center default_table_block">3д - 5д</td>
           </tr>
           <tr>
-            <td class="default_table_block">Условие</td>
-            <td class="default_table_block">-</td>
-            <td class="default_table_block">Пиар без ссылки</td>
-            <td class="default_table_block">Пиар с ссылкой</td>
+            <td class="bottom default_table_block">Условие</td>
+            <td class="bottom default_table_block">-</td>
+            <td class="bottom default_table_block">Пиар без ссылки</td>
+            <td class="bottom default_table_block">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
@@ -87,22 +91,22 @@
         </thead>
         <tbody>
           <tr>
-            <td style="bottom default_table_block">Существование</td>
-            <td style="bottom default_table_block">-</td>
-            <td style="bottom default_table_block">+</td>
-            <td style="bottom default_table_block">+</td>
+            <td style="center default_table_block">Существование</td>
+            <td style="center default_table_block">-</td>
+            <td style="center default_table_block">+</td>
+            <td style="center default_table_block">+</td>
           </tr>
           <tr>
-            <td style="bottom default_table_block">Длительность</td>
-            <td style="bottom default_table_block">-</td>
-            <td style="bottom default_table_block">1д - 3д</td>
-            <td style="bottom default_table_block">3д - 5д</td>
+            <td style="center default_table_block">Длительность</td>
+            <td style="center default_table_block">-</td>
+            <td style="center default_table_block">1д - 3д</td>
+            <td style="center default_table_block">3д - 5д</td>
           </tr>
           <tr>
-            <td style="default_table_block">Условие</td>
-            <td style="default_table_block">-</td>
-            <td style="default_table_block">Пиар без ссылки</td>
-            <td style="default_table_block">Пиар с ссылкой</td>
+            <td style="bottom default_table_block">Условие</td>
+            <td style="bottom default_table_block">-</td>
+            <td style="bottom default_table_block">Пиар без ссылки</td>
+            <td style="bottom default_table_block">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
