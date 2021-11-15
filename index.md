@@ -5,7 +5,7 @@
   }
 
   .top {
-    border-bottom: 3px solid #c1c2c3!important;
+    border-bottom: 3px solid #c1c2c3 !important;
     border-left: 0px !important;
     border-right: 0px !important;
     border-top: 0px !important;
@@ -22,7 +22,10 @@
   .default_table_block {
     background-color: #36393f;
     text-align: center;
-    border-collapse: separate;
+  }
+
+  table {
+    border-collapse: separate !important;
   }
 
   .warn { color: #00ff00; }
