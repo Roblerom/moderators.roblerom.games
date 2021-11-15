@@ -20,7 +20,11 @@
   }
 
   .bottom {
-    border: 0px
+    border: 0px;
+    border-bottom: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
   }
 
   .default_table_block {
