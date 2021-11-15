@@ -1,17 +1,23 @@
 <style>
   body {
-      background-color: #36393f;
-      color: #d6d7d9;
+    background-color: #36393f;
+    color: #d6d7d9;
   }
-    
-  ._test {
-      background-color: #36393f;
-      text-align: center;
-      border-bottom: 3px solid #ffffff;
-      botder-left: 0px none #ffffff;
-      border-rigft: 0px none #ffffff;
-      border-top: 0px none #ffffff;
+
+  .top {
+    background-color: #36393f;
+    border-bottom: 3px solid #c1c2c3;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
   }
+
+  .bottom {
+    background-color: #36393f;
+    border-bottom: 1px solid #5a5d62;
+  }
+
+  .center { text-align: center; }
 
   .warn { color: #00ff00; }
   .mute { color: #ffff00; }
@@ -29,30 +35,30 @@
       <table class="table">
         <thead>
           <tr>
-            <th class="_test"></th>
-            <th class="_test"><a href="/warn" class="warn">Варн</a></th>
-            <th class="_test"><a href="/mute" class="mute">Мут</a></th>
-            <th class="_test"><a href="/ban" class="ban">Бан</a></th>
+            <th class="top center"></th>
+            <th class="top center"><a href="/warn" class="warn">Варн</a></th>
+            <th class="top center"><a href="/mute" class="mute">Мут</a></th>
+            <th class="top center"><a href="/ban" class="ban">Бан</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="test">Существование</td>
-            <td class="test">-</td>
-            <td class="test">+</td>
-            <td class="test">+</td>
+            <td class="bottom center">Существование</td>
+            <td class="bottom center">-</td>
+            <td class="bottom center">+</td>
+            <td class="bottom center">+</td>
           </tr>
           <tr>
-            <td class="test">Длительность</td>
-            <td class="test">-</td>
-            <td class="test">1д - 3д</td>
-            <td class="test">3д - 5д</td>
+            <td class="bottom center">Длительность</td>
+            <td class="bottom center">-</td>
+            <td class="bottom center">1д - 3д</td>
+            <td class="bottom center">3д - 5д</td>
           </tr>
           <tr>
-            <td class="test">Условие</td>
-            <td class="test">-</td>
-            <td class="test">Пиар без ссылки</td>
-            <td class="test">Пиар с ссылкой</td>
+            <td class="center">Условие</td>
+            <td class="center">-</td>
+            <td class="center">Пиар без ссылки</td>
+            <td class="center">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
@@ -64,30 +70,30 @@
       <table>
         <thead>
           <tr>
-            <th style="text-align:center"></th>
-            <th style="text-align:center"><a href="/warn" class="warn">Варн</a></th>
-            <th style="text-align:center"><a href="/mute" class="mute">Мут</a></th>
-            <th style="text-align:center"><a href="/ban" class="ban">Бан</a></th>
+            <th style="top center"></th>
+            <th style="top center"><a href="/warn" class="warn">Варн</a></th>
+            <th style="top center"><a href="/mute" class="mute">Мут</a></th>
+            <th style="top center"><a href="/ban" class="ban">Бан</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style="text-align:center">Существование</td>
-            <td style="text-align:center">-</td>
-            <td style="text-align:center">+</td>
-            <td style="text-align:center">+</td>
+            <td style="bottom center">Существование</td>
+            <td style="bottom center">-</td>
+            <td style="bottom center">+</td>
+            <td style="bottom center">+</td>
           </tr>
           <tr>
-            <td style="text-align:center">Длительность</td>
-            <td style="text-align:center">-</td>
-            <td style="text-align:center">1д - 3д</td>
-            <td style="text-align:center">3д - 5д</td>
+            <td style="bottom center">Длительность</td>
+            <td style="bottom center">-</td>
+            <td style="bottom center">1д - 3д</td>
+            <td style="bottom center">3д - 5д</td>
           </tr>
           <tr>
-            <td style="text-align:center">Условие</td>
-            <td style="text-align:center">-</td>
-            <td style="text-align:center">Пиар без ссылки</td>
-            <td style="text-align:center">Пиар с ссылкой</td>
+            <td style="center">Условие</td>
+            <td style="center">-</td>
+            <td style="center">Пиар без ссылки</td>
+            <td style="center">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
