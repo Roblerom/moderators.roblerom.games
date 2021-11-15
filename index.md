@@ -5,19 +5,25 @@
   }
 
   .top {
-    background-color: #36393f;
-    border-bottom: 3px solid #c1c2c3;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
+    border-bottom: 3px solid #c1c2c3!important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
   }
 
   .bottom {
     background-color: #36393f;
-    border-bottom: 1px solid #5a5d62;
+    border-bottom: 1px solid #5a5d62 !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
   }
 
-  .center { text-align: center; }
+  .default_table_block {
+    background-color: #36393f;
+    text-align: center;
+    border-collapse: separate;
+  }
 
   .warn { color: #00ff00; }
   .mute { color: #ffff00; }
@@ -35,30 +41,30 @@
       <table class="table">
         <thead>
           <tr>
-            <th class="top center"></th>
-            <th class="top center"><a href="/warn" class="warn">Варн</a></th>
-            <th class="top center"><a href="/mute" class="mute">Мут</a></th>
-            <th class="top center"><a href="/ban" class="ban">Бан</a></th>
+            <th class="top default_table_block"></th>
+            <th class="top default_table_block"><a href="/warn" class="warn">Варн</a></th>
+            <th class="top default_table_block"><a href="/mute" class="mute">Мут</a></th>
+            <th class="top default_table_block"><a href="/ban" class="ban">Бан</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="bottom center">Существование</td>
-            <td class="bottom center">-</td>
-            <td class="bottom center">+</td>
-            <td class="bottom center">+</td>
+            <td class="bottom default_table_block">Существование</td>
+            <td class="bottom default_table_block">-</td>
+            <td class="bottom default_table_block">+</td>
+            <td class="bottom default_table_block">+</td>
           </tr>
           <tr>
-            <td class="bottom center">Длительность</td>
-            <td class="bottom center">-</td>
-            <td class="bottom center">1д - 3д</td>
-            <td class="bottom center">3д - 5д</td>
+            <td class="bottom default_table_block">Длительность</td>
+            <td class="bottom default_table_block">-</td>
+            <td class="bottom default_table_block">1д - 3д</td>
+            <td class="bottom default_table_block">3д - 5д</td>
           </tr>
           <tr>
-            <td class="center">Условие</td>
-            <td class="center">-</td>
-            <td class="center">Пиар без ссылки</td>
-            <td class="center">Пиар с ссылкой</td>
+            <td class="default_table_block">Условие</td>
+            <td class="default_table_block">-</td>
+            <td class="default_table_block">Пиар без ссылки</td>
+            <td class="default_table_block">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
@@ -70,30 +76,30 @@
       <table>
         <thead>
           <tr>
-            <th style="top center"></th>
-            <th style="top center"><a href="/warn" class="warn">Варн</a></th>
-            <th style="top center"><a href="/mute" class="mute">Мут</a></th>
-            <th style="top center"><a href="/ban" class="ban">Бан</a></th>
+            <th style="top default_table_block"></th>
+            <th style="top default_table_block"><a href="/warn" class="warn">Варн</a></th>
+            <th style="top default_table_block"><a href="/mute" class="mute">Мут</a></th>
+            <th style="top default_table_block"><a href="/ban" class="ban">Бан</a></th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td style="bottom center">Существование</td>
-            <td style="bottom center">-</td>
-            <td style="bottom center">+</td>
-            <td style="bottom center">+</td>
+            <td style="bottom default_table_block">Существование</td>
+            <td style="bottom default_table_block">-</td>
+            <td style="bottom default_table_block">+</td>
+            <td style="bottom default_table_block">+</td>
           </tr>
           <tr>
-            <td style="bottom center">Длительность</td>
-            <td style="bottom center">-</td>
-            <td style="bottom center">1д - 3д</td>
-            <td style="bottom center">3д - 5д</td>
+            <td style="bottom default_table_block">Длительность</td>
+            <td style="bottom default_table_block">-</td>
+            <td style="bottom default_table_block">1д - 3д</td>
+            <td style="bottom default_table_block">3д - 5д</td>
           </tr>
           <tr>
-            <td style="center">Условие</td>
-            <td style="center">-</td>
-            <td style="center">Пиар без ссылки</td>
-            <td style="center">Пиар с ссылкой</td>
+            <td style="default_table_block">Условие</td>
+            <td style="default_table_block">-</td>
+            <td style="default_table_block">Пиар без ссылки</td>
+            <td style="default_table_block">Пиар с ссылкой</td>
           </tr>
         </tbody>
       </table>
