@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_warn.css">
+<link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_cases.css">
 
 # **Справочник по варнам (предупреждениям)**
 
