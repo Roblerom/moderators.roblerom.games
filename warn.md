@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_cases.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
 # **Справочник по варнам (предупреждениям)**
 
