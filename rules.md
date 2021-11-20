@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_index.css">
+<link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_rules.css">
 
 <h1>Справочник по правилам для модераторов</h1>
 
