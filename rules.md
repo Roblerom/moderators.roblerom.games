@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://cdn.roblerom.games/css/moderators_rules.css">
+<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
 <h1>Справочник по правилам для модераторов</h1>
 
